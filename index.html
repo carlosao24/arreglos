@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arreglos</title>
+    <script src="ejercicios.js"></script>
+    <script src="utilitarios.js"></script>
+</head>
+<body>
+    <input type="text" id="txtnotas">
+    <input type="button" value="Prueba 1" onclick="agregarElementos()"/>
+    <input type="button" value="agregarNota" onclick="probarAgregar()"/>
+    <input type="button" value="Imprimir" onclick="recorrerArreglo()"/>
+    <input type="button" value="Promedio" onclick="calcularPromedio()"/>
+    <table>
+        <tr>
+            <th>CABECERA 1</th>
+            <th>CABECERA 2</th>
+            <th>CABECERA 3</th>
+        </tr>
+        <tr>
+            <th>Celda 1</th>
+            <th>Celda 2</th>
+            <th>Celda 3</th>
+        </tr>
+        <tr>
+            <th>Celda 4</th>
+            <th>Celda 5</th>
+            <th>Celda 6</th>
+        </tr>
+        <tr>
+            <th>Celda 7</th>
+            <th>Celda 8</th>
+            <th>Celda 9</th>
+        </tr>
+    </table>
+    <input type="button" value="Generar Tabla" onclick="generarTabla()">
+    <input type="button" value="Mostrar Tabla" onclick="mostrarNotas()">
+    <div id="divTabla">
+        <table>
+            <tr><td>UNO</td></tr>
+            <tr><td>DOS</td></tr>
+        </table>
+    </div>
+</body>
+</html>
