@@ -1,0 +1,14 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    background-color: skyblue;
+    color: black;
+}
+
+div{
+    flex-direction: column;
+    width: fit-content;
+}
+div td{
+    border: 2px solid black;
+}
